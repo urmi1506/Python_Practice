@@ -82,5 +82,17 @@ print(s4.replace('m','v'))
 s5="urmi\tbest"
 print(s5.expandtabs())
 
+# whole string must statisfy cond otherwise its give u false
+print(s5.isupper())
+print(s5.islower())
+print(s5.isspace())
+print(s5.isdigit())
+print(s5.endswith('t'))
+print(s5.startswith('u'))
+print(s5.istitle())
+
+
+
+
 
 
