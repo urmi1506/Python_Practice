@@ -75,7 +75,7 @@ print(s4.strip())
 print(s4.rstrip())
 print(s4.lstrip())
 
-# replace
+# replace...str immutable nd here its change the address so its able to replace
 print(s4.replace('m','v'))
 
 # expandtab
