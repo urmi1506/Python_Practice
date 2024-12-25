@@ -53,3 +53,8 @@ print(d1)
 
 # ans=d1+d2
 # print(ans)
+
+key=('name','no')
+value=('urmi')
+d8=d1.fromkeys(key,value)
+print(d8)
