@@ -61,3 +61,10 @@ while c< 5:
     if c == 3 :
         continue 
 print()
+
+while a<5:
+# declare statement but not want to execute then use pass   
+    pass
+print()
+
+#-------#
