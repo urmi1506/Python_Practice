@@ -30,7 +30,7 @@ if coup == 'new5' :
   paid_amt=7000 - 7000 * 0.5
   print("Total paid amount ",paid_amt)
 else:
-   print("Valid coupon code")
+   print("Invalid coupon code")
 # ----- #
 Study_hr=int(input())
 if Study_hr >1:
