@@ -72,5 +72,6 @@ print(test6(l))
 
 #---
 def test7(d):
-    
+    if type(d) == dict :
+        return d.keys
 
