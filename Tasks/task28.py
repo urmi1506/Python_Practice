@@ -24,6 +24,9 @@ words=paragraph.split()
 freq=[words.count(w) for w in words]
 print(dict(zip(words,freq)))
 
-for i in range(word_count):
-   unique = set(i)
+top=[]
+top = sorted(set(words), key=words.count, reverse=True)[:3]
+print(f"Top 3 Words :{top}")
+
+unique = set(words)
 print(len(unique))
