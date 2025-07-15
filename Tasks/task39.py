@@ -113,7 +113,7 @@ def menu():
         print("8. Exit")
         
         choice = input("Enter your choice: ")
-
+        
         if choice == '1':
             view_data()
         elif choice == '2':
