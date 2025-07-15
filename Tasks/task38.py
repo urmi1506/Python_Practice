@@ -17,6 +17,8 @@ def load_data():
     except FileNotFoundError:
         print("File Not Found")
 
+    except Exception as err:
+        print(f"Hello ")
 def add_data():
     id = int(input("Enter Product ID: "))
     name = input("Enter Product name: ")
