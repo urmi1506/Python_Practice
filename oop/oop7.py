@@ -1,7 +1,8 @@
-# we can assign val to instance variable in 3 ways:
-# 1.using self
-# 2.using object
-# 3.using dict
+# we can assign val to instance variable in 4 ways:
+# 1.using self within constructor/__init__
+# 2.using self within instance method
+# 3.using object
+# 4.using dict
 
 # ---here dict is variable not an method---#
 class Emp:
