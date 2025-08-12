@@ -43,7 +43,7 @@ class Product:
         for items in cls.total_products:
             total_cnt +=items['quantity']
             print(f"Total available Product : {total_cnt}")
-            return
+            
 
 Product.addProduct('Apple',120,2)
 Product.addProduct('Strawberry',170,5)
