@@ -118,7 +118,7 @@ urmi.deposit_money(1500)
 urmi.withdraw_money(6000)
 
 aaru.withdraw_money(14000)
-aaru.withdraw_money(2000)  # Should fail
+aaru.withdraw_money(2000)  
 
 # Transfer
 urmi.transfer_money(500, aaru)
